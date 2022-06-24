@@ -1,9 +1,23 @@
-# Welcome
 
 ## Want to knkow if there's a method th win against a bookmaker ? 
 
-### I tried a method here, betting on the five biggest football championships in Europe. The odds come from bet365, and we can backtest the method from the 2009/2010 season to the 2018/2019 season. 
+Here is a personnal project that I made to test my skills in Data Analysis, so I could see what I can do with it. 
 
-### The principe is to always bet on the favourite team. 
+To summarizer this project, I created a strategy that tries to beat a bookmaker. I gathered 10 year results of 5 football leagues and worked with it.
+The strategy is to bet every time on the favourite team. If I win, I do it again. If I loose, I multiply my stake so I can reimburse my losses and make profits (until I have a winning bet, I keep multiplying).
 
-### First of all I created 4 odds categories ( under 1.5, from 1.5 to 2, from 2 to 2.5 and over 2.5 ). It's really important because it will affect the recurrence of wins and the return of investment.
+The danger here is that too many losses in a row and you won't have enough money to keep rising the stakes.
+But I wanted to know if by betting only on the favourite teams, we could keep going year after year.
+
+Don't hesitate to download the folder and launch the python program in Jupyter Notebook. You have 5 interactive parameters(as syou can see below), so you can see by yourself if this is a winning strategy or not.
+
+![graph_bankroll](https://miro.medium.com/max/700/1*jDBG5Y1mHocfNAir1VjtNQ.png)
+
+### Want to know more about it ?
+
+Here is an article I wrote on Medium where I try to explain in details my projet:
+[Read it here.](https://medium.com/@athos-b/how-to-beat-the-bookies-e36070d2b0c5)
+
+
+
+Nacim
